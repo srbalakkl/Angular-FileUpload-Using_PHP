@@ -1,0 +1,11 @@
+
+<input [formControl]="file"
+       (change)="fileChange(index,$event)"
+       type="file" placeholder="File">
+
+
+<button style="margin-top:20px"
+        (click)="uploadFile()"
+        mat-raised-button color="primary">
+  Upload
+</button>
